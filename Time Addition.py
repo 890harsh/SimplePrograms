@@ -8,5 +8,5 @@ days = (addhours+hour)//24
 
 hours=hour + addhours
 if days>0:
-   hours -= (days*24)
+   hours = (days*24)
 print(hours, ":", (mins+dura)-(60*addhours))
